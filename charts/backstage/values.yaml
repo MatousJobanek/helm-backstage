@@ -10,8 +10,8 @@ upstream:
   nameOverride: backstage
   backstage:
     image:
-      registry: quay.io
-      repository: janus-idp/backstage-showcase
+      registry: default-route-openshift-image-registry.apps.{{ .Values.global.host }}
+      repository: mjobanek-dev/backstage-showcase
       tag: latest
     command: []
     # FIXME (tumido): USE POSTGRES_PASSWORD and POSTGRES_USER instead of POSTGRES_ADMIN_PASSWORD
