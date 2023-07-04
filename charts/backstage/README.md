@@ -218,3 +218,4 @@ upstream:
         cors:
           origin: 'https://{{- include "janus-idp.hostname" . }}'
 ```
+
