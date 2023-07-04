@@ -44,3 +44,4 @@ helm upgrade -i oci://ghcr.io/janus-idp/helm-backstage/backstage --version=<vers
 ## Backstage Chart
 
 More information can be found by inspecting the [backstage chart](charts/backstage).
+
